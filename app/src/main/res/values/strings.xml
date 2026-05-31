@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RuStore</string>
+    <string name="onboarding_welcome">Добро пожаловать в RuStore</string>
+    <string name="onboarding_subtitle">Российский магазин приложений</string>
+    <string name="onboarding_description">Тысячи приложений и игр для вашего Android-устройства</string>
+    <string name="onboarding_button">Начать</string>
+    <string name="showcase_title">RuStore</string>
+    <string name="categories_title">Категории</string>
+    <string name="search_hint">Поиск приложений</string>
+    <string name="install_button">Установить</string>
+    <string name="retry_button">Повторить</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="back">Назад</string>
+    <string name="popular_apps">Популярные приложения</string>
+    <string name="screenshots_title">Скриншоты</string>
+    <string name="description_title">Описание</string>
+    <string name="info_title">Информация</string>
+</resources>

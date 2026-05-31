@@ -1,0 +1,213 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rustore.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+13-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:6:5-87
+13-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:6:22-84
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:7:5-77
+14-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+15-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:8:5-83
+15-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:8:22-80
+16    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+16-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:9:5-82
+16-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:9:22-79
+17
+18    <queries>
+18-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:11:5-19:15
+19        <intent>
+19-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:12:9-15:18
+20            <action android:name="android.intent.action.MAIN" />
+20-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:13:13-65
+20-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:13:21-62
+21
+22            <category android:name="android.intent.category.LAUNCHER" />
+22-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:14:13-73
+22-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:14:23-70
+23        </intent>
+24        <intent>
+24-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:16:9-18:18
+25            <action android:name="android.intent.action.DELETE" />
+25-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:17:13-67
+25-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:17:21-64
+26        </intent>
+27    </queries>
+28
+29    <permission
+29-->[androidx.core:core:1.13.1] C:\Users\katya\.gradle\caches\transforms-4\268f98eb90a2df5e4a01a397f8322696\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.rustore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.13.1] C:\Users\katya\.gradle\caches\transforms-4\268f98eb90a2df5e4a01a397f8322696\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.13.1] C:\Users\katya\.gradle\caches\transforms-4\268f98eb90a2df5e4a01a397f8322696\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.rustore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.13.1] C:\Users\katya\.gradle\caches\transforms-4\268f98eb90a2df5e4a01a397f8322696\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] C:\Users\katya\.gradle\caches\transforms-4\268f98eb90a2df5e4a01a397f8322696\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:21:5-57:19
+36        android:name="com.rustore.app.RuStoreApplication"
+36-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:22:9-43
+37        android:allowBackup="true"
+37-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:23:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.1] C:\Users\katya\.gradle\caches\transforms-4\268f98eb90a2df5e4a01a397f8322696\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:24:9-65
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="@xml/backup_rules"
+42-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:25:9-54
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:26:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:27:9-41
+45        android:networkSecurityConfig="@xml/network_security_config"
+45-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:31:9-69
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:28:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:29:9-35
+48        android:testOnly="true"
+49        android:theme="@style/Theme.RuStore" >
+49-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:30:9-45
+50        <activity
+50-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:33:9-42:20
+51            android:name="com.rustore.app.MainActivity"
+51-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:34:13-41
+52            android:exported="true"
+52-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:35:13-36
+53            android:label="@string/app_name"
+53-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:36:13-45
+54            android:theme="@style/Theme.RuStore" >
+54-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:37:13-49
+55            <intent-filter>
+55-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:38:13-41:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:13:13-65
+56-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:13:21-62
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:14:13-73
+58-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:14:23-70
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:44:9-47:56
+63            android:name="com.rustore.app.service.DownloadService"
+63-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:45:13-52
+64            android:exported="false"
+64-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:46:13-37
+65            android:foregroundServiceType="dataSync" />
+65-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:47:13-53
+66
+67        <receiver
+67-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:49:9-55:20
+68            android:name="com.rustore.app.service.InstallReceiver"
+68-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:50:13-52
+69            android:exported="false" >
+69-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:51:13-37
+70            <intent-filter>
+70-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:52:13-54:29
+71                <action android:name="com.rustore.app.INSTALL_RESULT" />
+71-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:53:17-73
+71-->C:\Users\katya\AndroidStudioProjects\RuStore\app\src\main\AndroidManifest.xml:53:25-70
+72            </intent-filter>
+73        </receiver>
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.rustore.app.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\katya\.gradle\caches\transforms-4\1118f11763f4dbc2bb727feecb593743\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\katya\.gradle\caches\transforms-4\cd5018c53560a2b7cf7e161c955726b6\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\katya\.gradle\caches\transforms-4\cd5018c53560a2b7cf7e161c955726b6\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\katya\.gradle\caches\transforms-4\cd5018c53560a2b7cf7e161c955726b6\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <activity
+90-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\katya\.gradle\caches\transforms-4\07f3aa575df801da1d13def3f6f7728b\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+91            android:name="androidx.activity.ComponentActivity"
+91-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\katya\.gradle\caches\transforms-4\07f3aa575df801da1d13def3f6f7728b\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+92            android:exported="true" />
+92-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\katya\.gradle\caches\transforms-4\07f3aa575df801da1d13def3f6f7728b\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+93        <activity
+93-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\katya\.gradle\caches\transforms-4\b2f2301fae5018a09145d16faf509048\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+94            android:name="androidx.compose.ui.tooling.PreviewActivity"
+94-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\katya\.gradle\caches\transforms-4\b2f2301fae5018a09145d16faf509048\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+95            android:exported="true" />
+95-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\katya\.gradle\caches\transforms-4\b2f2301fae5018a09145d16faf509048\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\katya\.gradle\caches\transforms-4\6f359858d2afff716d3593b820bd1c1a\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>
